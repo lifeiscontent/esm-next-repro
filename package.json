@@ -1,0 +1,15 @@
+{
+  "name": "next-repro",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Aaron Reisman <aaron@lifeiscontent.net>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}

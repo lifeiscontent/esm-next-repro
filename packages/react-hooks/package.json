@@ -1,0 +1,20 @@
+{
+  "name": "@example/react-hooks",
+  "version": "1.0.0",
+  "exports": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.19",
+    "@types/warning": "^3.0.0",
+    "react": "^17.0.2",
+    "warning": "^4.0.3"
+  }
+}
